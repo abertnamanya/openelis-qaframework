@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="WorkPlan Feature" skipped="0" tests="4" time="32.63" timestamp="2023-02-23 09:14:23"><testcase name="Work plan by Test"><failure type="java.lang.AssertionError"/><system-err>null
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="4" name="WorkPlan Feature" skipped="0" tests="4" time="35.11" timestamp="2023-02-23 11:22:51"><testcase name="Work plan by Test"><failure type="java.lang.AssertionError"/><system-err>null
 org.openelisglobal.qaframework.automation.WorkPlanSteps.allKnownOrdersArePresentAnd(WorkPlanSteps.java:80)
 ✽.All known orders are present "HIV INFANT VIRAL LOAD(Serum)" and "20210000000003761"(file:///home/runner/work/openelis-qaframework/openelis-qaframework/src/features/openelis/workPlan.feature:12)
 </system-err></testcase><testcase name="Work plan by Panel"><failure type="java.lang.AssertionError"/><system-err>null
