@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Referral Work Flow","Register a patient's sample for Covid testing and send the lab request and sample to the Central Health Laboratory","ERROR","2023-02-23T13:43:47.485Z[Etc/UTC]","0.0","162.27"
-"WorkPlan Feature","Verification","ERROR","2023-02-23T13:54:42.614Z[Etc/UTC]","0.0","74.11"
+"Results Entry","Overall Page","ERROR","2023-02-23T13:54:01.886Z[Etc/UTC]","0.0","155.45"
+"Test Management Feature","Open Rename Existing Test Names page","ERROR","2023-02-23T13:58:47.767Z[Etc/UTC]","0.0","120.4"
+"WorkPlan Feature","Verification","ERROR","2023-02-23T14:03:36.753Z[Etc/UTC]","0.0","73.35"
