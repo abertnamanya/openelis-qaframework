@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="Results Entry" skipped="0" tests="9" time="519.46" timestamp="2023-02-22 11:49:26"><testcase name="Accessing Results Entry"><error type="java.lang.reflect.InvocationTargetException"/><system-err>null
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+io.cucumber.core.runner.TestCase.run(TestCase.java:98)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
+</system-err></testcase><testcase name="Searching for test result entry forms"/><testcase name="Results Entry Set-up"/><testcase name="Entering Test Results"/><testcase name="Overall Page"/><testcase name="Verification"/><testcase name="Accept As Is functionality"/><testcase name="Verification"/><testcase name="Changing Results"><failure type="java.lang.AssertionError"/><system-err>null
+org.openelisglobal.qaframework.automation.ResultsEntrySteps.saveSuccesfully(ResultsEntrySteps.java:675)
+✽.Message ,Save was successful, appears at top of page(file:///home/runner/work/openelis-qaframework/openelis-qaframework/src/features/openelis/resultEntry.feature:158)
+</system-err></testcase></testsuite>
