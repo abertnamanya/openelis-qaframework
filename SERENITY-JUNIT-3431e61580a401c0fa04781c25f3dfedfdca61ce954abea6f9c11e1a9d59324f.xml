@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Add Batch Orders Feature" skipped="0" tests="2" time="34.3" timestamp="2023-02-24 12:23:01"><testcase name="Add Batch Orders action"><error type="java.lang.NullPointerException"/><system-err>null
+org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)
+org.openelisglobal.qaframework.automation.page.Page.clickOn(Page.java:266)
+org.openelisglobal.qaframework.automation.page.AddBatchOrdersPage.enterReceivedDate(AddBatchOrdersPage.java:116)
+org.openelisglobal.qaframework.automation.AddBatchOrdersSteps.userEntersReceivedDateInTheFuture(AddBatchOrdersSteps.java:82)
+✽.User enters Received date in the future(file:///home/runner/work/openelis-qaframework/openelis-qaframework/src/features/openelis/addBatchOrders.feature:12)
+</system-err></testcase><testcase name="Batch Order Entry Screen"/></testsuite>
