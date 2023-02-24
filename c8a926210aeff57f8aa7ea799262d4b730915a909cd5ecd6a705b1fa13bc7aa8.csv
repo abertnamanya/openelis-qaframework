@@ -1,5 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Patient Report","Patient Report With Partial result reported","ERROR","2023-02-23T13:53:10.135Z[Etc/UTC]","0.0","81.87"
-"Referral Work Flow","Register a patient's sample for Covid testing and send the lab request and sample to the Central Health Laboratory","ERROR","2023-02-23T13:54:32.104Z[Etc/UTC]","0.0","164.23"
-"Results Entry","Results Entry Set-up","ERROR","2023-02-23T13:58:06.609Z[Etc/UTC]","0.0","117.22"
-"WorkPlan Feature","Verification","ERROR","2023-02-23T14:06:14.011Z[Etc/UTC]","0.0","72.93"
+"WorkPlan Feature","Verification","ERROR","2023-02-24T02:17:31.992Z[Etc/UTC]","0.0","75.75"
