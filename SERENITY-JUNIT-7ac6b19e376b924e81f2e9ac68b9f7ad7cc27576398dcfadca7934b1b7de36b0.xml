@@ -1,1 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Modify Order" skipped="0" tests="16" time="361.56" timestamp="2023-03-16 02:07:18"><testcase name="Order Search"/><testcase name="Order Information"/><testcase name="Current Test Information"/><testcase name="Available Test Information"/><testcase name="Add Order"/><testcase name="Collection Date"/><testcase name="Collection Time"/><testcase name="Add Tests"/><testcase name="Verification"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="2" name="Modify Order" skipped="0" tests="16" time="343.69" timestamp="2023-03-16 03:59:58"><testcase name="Order Search"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#sel_1&quot;}&#10;  (Session info: chrome=110.0.5481.177)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az461-644', ip: '10.1.1.67', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.SUssUu}, goog:chromeOptions: {debuggerAddress: localhost:45015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fa17f9cb6b03ae76f662527deea470c9&#10;*** Element info: {Using=id, value=sel_1}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az461-644', ip: '10.1.1.67', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"css selector","selector":"#sel_1"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az461-644', ip: '10.1.1.67', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.SUssUu}, goog:chromeOptions: {debuggerAddress: localhost:45015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa17f9cb6b03ae76f662527deea470c9
+*** Element info: {Using=id, value=sel_1}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az461-644', ip: '10.1.1.67', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
+Driver info: driver.version: unknown</error><system-err>no such element: Unable to locate element: {"method":"css selector","selector":"#sel_1"}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az461-644', ip: '10.1.1.67', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.SUssUu}, goog:chromeOptions: {debuggerAddress: localhost:45015}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa17f9cb6b03ae76f662527deea470c9
+*** Element info: {Using=id, value=sel_1}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az461-644', ip: '10.1.1.67', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
+Driver info: driver.version: unknown
+org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)
+org.openelisglobal.qaframework.automation.page.Page.hasElement(Page.java:474)
+org.openelisglobal.qaframework.automation.page.ModifyOrderPage.containsSeachResult(ModifyOrderPage.java:217)
+org.openelisglobal.qaframework.automation.page.ModifyOrderPage.searchByPatientIdResult(ModifyOrderPage.java:226)
+org.openelisglobal.qaframework.automation.ModifyOrderSteps.searchByPatientIdYieldsResults(ModifyOrderSteps.java:148)
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+io.cucumber.java.Invoker.invoke(Invoker.java:24)
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
+</system-err></testcase><testcase name="Order Information"><failure type="java.lang.AssertionError"/><system-err>null
+org.openelisglobal.qaframework.automation.ModifyOrderSteps.patientInfoDisplays(ModifyOrderSteps.java:196)
+✽.Patient information displays correctly on the Modify Oder Page(file:///home/runner/work/openelis-qaframework/openelis-qaframework/src/features/openelis/modifyOrder.feature:29)
+</system-err></testcase><testcase name="Current Test Information"/><testcase name="Available Test Information"/><testcase name="Add Order"/><testcase name="Collection Date"/><testcase name="Collection Time"/><testcase name="Add Tests"><failure type="java.lang.AssertionError"/><system-err>null
+org.openelisglobal.qaframework.automation.ModifyOrderSteps.editSampleFormRemainsOnSCreen(ModifyOrderSteps.java:845)
+✽.Edit Sample form remains on screen on the Modify Oder Page(file:///home/runner/work/openelis-qaframework/openelis-qaframework/src/features/openelis/modifyOrder.feature:185)
+</system-err></testcase><testcase name="Verification"/></testsuite>
