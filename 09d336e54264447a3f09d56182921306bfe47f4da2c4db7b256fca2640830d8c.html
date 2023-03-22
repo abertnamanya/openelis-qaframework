@@ -143,7 +143,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-03-2023 16:00</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-03-2023 17:18</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -179,9 +179,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">
+                                <span class="error-color">
                                     Collection Date
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -228,50 +228,50 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="test-SUCCESS"><a href="#0">1</a></td>
-                                <td class="test-SUCCESS"><a
+                            <td class="test-ERROR"><a href="#0">1</a></td>
+                                <td class="test-ERROR"><a
                                             href="#0">20231099040004863</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-ERROR"><a
                                             href="#0">09-02/2019</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-ERROR"><a
                                             href="#0">Rejects incorect Format not in DD/MM/YYYY</a>
                                 </td>
                         </tr>
                         <tr>
-                            <td class="test-SUCCESS"><a href="#1">2</a></td>
-                                <td class="test-SUCCESS"><a
+                            <td class="test-ERROR"><a href="#1">2</a></td>
+                                <td class="test-ERROR"><a
                                             href="#1">20231099040004863</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-ERROR"><a
                                             href="#1">dd/mm/yyy</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-ERROR"><a
                                             href="#1">Rejects incorect Format not Numeric</a>
                                 </td>
                         </tr>
                         <tr>
-                            <td class="test-SUCCESS"><a href="#2">3</a></td>
-                                <td class="test-SUCCESS"><a
+                            <td class="test-ERROR"><a href="#2">3</a></td>
+                                <td class="test-ERROR"><a
                                             href="#2">20231099040004863</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-ERROR"><a
                                             href="#2">09/02/5000</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-ERROR"><a
                                             href="#2">Rejects Future date</a>
                                 </td>
                         </tr>
                         <tr>
-                            <td class="test-SUCCESS"><a href="#3">4</a></td>
-                                <td class="test-SUCCESS"><a
+                            <td class="test-ERROR"><a href="#3">4</a></td>
+                                <td class="test-ERROR"><a
                                             href="#3">20231099040004863</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-ERROR"><a
                                             href="#3">09/01/2020</a>
                                 </td>
-                                <td class="test-SUCCESS"><a
+                                <td class="test-ERROR"><a
                                             href="#3">Accepts correct Format in DD/MM/YYYY</a>
                                 </td>
                         </tr>
@@ -296,13 +296,13 @@
                     <td colspan="5"></td>
                 </tr>
 
-                    <tr class="test-SUCCESS">
+                    <tr class="test-ERROR">
 
                         <td width="50" class="step-icon">
                             <a name="0"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection0 error-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -320,18 +320,18 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">12s 703ms</span></td>
+                        <td width="130"><span class="top-level-step">ERROR</span></td>
+                        <td width="100"><span class="top-level-step">13s 346ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
                                 <table id="stepSection0" class="step-table-nested" style="display:none;">
-                    <tr class="test-SUCCESS">
+                    <tr class="test-ERROR">
 
                         <td width="70" class="step-icon">
                             <a name="0-0"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
                                 </span>
                         </td>
 
@@ -345,15 +345,53 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">6s 483ms</span></td>
+                        <td width="130"><span class="nested-group-step">ERROR</span></td>
+                        <td width="100"><span class="nested-group-step">12s 782ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                        <tr class="test-ERROR">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#loginName&quot;}<br>  (Session info: chrome=110.0.5481.177)<br>For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;fv-az370-296&#39;, ip: &#39;10.1.110.0&#39;, os.name: &#39;Linux&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;5.15.0-1034-azure&#39;, java.version: &#39;1.8.0_362&#39;<br>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.KPaufr}, goog:chromeOptions: {debuggerAddress: localhost:46747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br>Session ID: 19f65a517b954b004a45311298919851<br>*** Element info: {Using=id, value=loginName}<br>For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;fv-az370-296&#39;, ip: &#39;10.1.110.0&#39;, os.name: &#39;Linux&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;5.15.0-1034-azure&#39;, java.version: &#39;1.8.0_362&#39;<br>Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-2""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-2">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)<br />org.openelisglobal.qaframework.automation.page.Page.setTextToFieldNoEnter(Page.java:240)<br />org.openelisglobal.qaframework.automation.page.LoginPage.enterUsername(LoginPage.java:48)<br />org.openelisglobal.qaframework.automation.page.LoginPage.goToHomePage(LoginPage.java:63)<br />org.openelisglobal.qaframework.automation.ModifyOrderSteps.visitLoginPage(ModifyOrderSteps.java:65)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-1"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -367,15 +405,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">3s 169ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-2"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -389,15 +427,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">2s 356ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">004ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-3"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -411,20 +449,20 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">082ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
 
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-ERROR">
 
                         <td width="50" class="step-icon">
                             <a name="1"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection1 error-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -442,18 +480,18 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">13s 198ms</span></td>
+                        <td width="130"><span class="top-level-step">ERROR</span></td>
+                        <td width="100"><span class="top-level-step">13s 336ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
                                 <table id="stepSection1" class="step-table-nested" style="display:none;">
-                    <tr class="test-SUCCESS">
+                    <tr class="test-ERROR">
 
                         <td width="70" class="step-icon">
                             <a name="1-0"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
                                 </span>
                         </td>
 
@@ -467,15 +505,53 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">6s 618ms</span></td>
+                        <td width="130"><span class="nested-group-step">ERROR</span></td>
+                        <td width="100"><span class="nested-group-step">12s 763ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                        <tr class="test-ERROR">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#loginName&quot;}<br>  (Session info: chrome=110.0.5481.177)<br>For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;fv-az370-296&#39;, ip: &#39;10.1.110.0&#39;, os.name: &#39;Linux&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;5.15.0-1034-azure&#39;, java.version: &#39;1.8.0_362&#39;<br>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.DIm762}, goog:chromeOptions: {debuggerAddress: localhost:46837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br>Session ID: 71baee374d315137dc8f2eeee3c56a40<br>*** Element info: {Using=id, value=loginName}<br>For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;fv-az370-296&#39;, ip: &#39;10.1.110.0&#39;, os.name: &#39;Linux&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;5.15.0-1034-azure&#39;, java.version: &#39;1.8.0_362&#39;<br>Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-7""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-7">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)<br />org.openelisglobal.qaframework.automation.page.Page.setTextToFieldNoEnter(Page.java:240)<br />org.openelisglobal.qaframework.automation.page.LoginPage.enterUsername(LoginPage.java:48)<br />org.openelisglobal.qaframework.automation.page.LoginPage.goToHomePage(LoginPage.java:63)<br />org.openelisglobal.qaframework.automation.ModifyOrderSteps.visitLoginPage(ModifyOrderSteps.java:65)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="1-1"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -489,15 +565,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">3s 615ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="1-2"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -511,15 +587,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">2s 347ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="1-3"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -533,20 +609,20 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">081ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
 
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-ERROR">
 
                         <td width="50" class="step-icon">
                             <a name="2"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection2 success-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection2 error-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -564,18 +640,18 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">14s 311ms</span></td>
+                        <td width="130"><span class="top-level-step">ERROR</span></td>
+                        <td width="100"><span class="top-level-step">13s 400ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
                                 <table id="stepSection2" class="step-table-nested" style="display:none;">
-                    <tr class="test-SUCCESS">
+                    <tr class="test-ERROR">
 
                         <td width="70" class="step-icon">
                             <a name="2-0"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
                                 </span>
                         </td>
 
@@ -589,15 +665,53 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">6s 599ms</span></td>
+                        <td width="130"><span class="nested-group-step">ERROR</span></td>
+                        <td width="100"><span class="nested-group-step">12s 775ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                        <tr class="test-ERROR">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#loginName&quot;}<br>  (Session info: chrome=110.0.5481.177)<br>For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;fv-az370-296&#39;, ip: &#39;10.1.110.0&#39;, os.name: &#39;Linux&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;5.15.0-1034-azure&#39;, java.version: &#39;1.8.0_362&#39;<br>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.4X0hw4}, goog:chromeOptions: {debuggerAddress: localhost:34911}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br>Session ID: ff199b0e8fb371bf96bf500102b9de2e<br>*** Element info: {Using=id, value=loginName}<br>For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;fv-az370-296&#39;, ip: &#39;10.1.110.0&#39;, os.name: &#39;Linux&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;5.15.0-1034-azure&#39;, java.version: &#39;1.8.0_362&#39;<br>Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-12""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)<br />org.openelisglobal.qaframework.automation.page.Page.setTextToFieldNoEnter(Page.java:240)<br />org.openelisglobal.qaframework.automation.page.LoginPage.enterUsername(LoginPage.java:48)<br />org.openelisglobal.qaframework.automation.page.LoginPage.goToHomePage(LoginPage.java:63)<br />org.openelisglobal.qaframework.automation.ModifyOrderSteps.visitLoginPage(ModifyOrderSteps.java:65)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="2-1"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -611,15 +725,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">3s 576ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="2-2"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -633,15 +747,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">2s 267ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="2-3"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -655,20 +769,20 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">1s 132ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
 
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-ERROR">
 
                         <td width="50" class="step-icon">
                             <a name="3"></a>
                                 <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
                                    style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection3 success-icon"
+                                    <i class="fa fa-plus-square-o imgstepSection3 error-icon"
                                        style="margin-left: 20px; float:left; padding-right:5px"></i>
                                 </a>
                         </td>
@@ -686,18 +800,18 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">13s 897ms</span></td>
+                        <td width="130"><span class="top-level-step">ERROR</span></td>
+                        <td width="100"><span class="top-level-step">40s 988ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
                                 <table id="stepSection3" class="step-table-nested" style="display:none;">
-                    <tr class="test-SUCCESS">
+                    <tr class="test-ERROR">
 
                         <td width="70" class="step-icon">
                             <a name="3-0"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
                                 </span>
                         </td>
 
@@ -711,15 +825,53 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">6s 675ms</span></td>
+                        <td width="130"><span class="nested-group-step">ERROR</span></td>
+                        <td width="100"><span class="nested-group-step">40s 359ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                        <tr class="test-ERROR">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#proceed\-link&quot;}<br>  (Session info: chrome=110.0.5481.177)<br>For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;fv-az370-296&#39;, ip: &#39;10.1.110.0&#39;, os.name: &#39;Linux&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;5.15.0-1034-azure&#39;, java.version: &#39;1.8.0_362&#39;<br>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.OjJEXV}, goog:chromeOptions: {debuggerAddress: localhost:43043}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br>Session ID: 4e4109da37ce7c3bb59cbc82ae79aa21<br>*** Element info: {Using=id, value=proceed-link}<br>For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;fv-az370-296&#39;, ip: &#39;10.1.110.0&#39;, os.name: &#39;Linux&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;5.15.0-1034-azure&#39;, java.version: &#39;1.8.0_362&#39;<br>Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-17""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-17">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)<br />org.openelisglobal.qaframework.automation.page.Page.clickOn(Page.java:266)<br />org.openelisglobal.qaframework.automation.page.LoginPage.acceptSelfAssignedCert(LoginPage.java:84)<br />org.openelisglobal.qaframework.automation.page.LoginPage.go(LoginPage.java:39)<br />org.openelisglobal.qaframework.automation.page.LoginPage.goToHomePage(LoginPage.java:62)<br />org.openelisglobal.qaframework.automation.ModifyOrderSteps.visitLoginPage(ModifyOrderSteps.java:65)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="3-1"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -733,15 +885,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">3s 283ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="3-2"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -755,15 +907,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">2s 274ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="3-3"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -777,17 +929,17 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">1s 046ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
 
                                 </table>
                             </td>
                         </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                         <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>54.23s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>ERROR</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>81.19s</em></span></td>
                 </tr>
 
             </table>

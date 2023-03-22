@@ -143,7 +143,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-03-2023 16:07</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-03-2023 17:23</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -301,17 +301,17 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">ERROR</span></td>
-                        <td width="100"><span class="top-level-step">1m 57s</span></td>
+                        <td width="100"><span class="top-level-step">13s 395ms</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
                                 <table id="stepSection0" class="step-table-nested" style="display:none;">
-                    <tr class="test-SUCCESS">
+                    <tr class="test-ERROR">
 
                         <td width="70" class="step-icon">
                             <a name="0-0"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
                                 </span>
                         </td>
 
@@ -325,15 +325,53 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">5s 884ms</span></td>
+                        <td width="130"><span class="nested-group-step">ERROR</span></td>
+                        <td width="100"><span class="nested-group-step">12s 837ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                        <tr class="test-ERROR">
+                            <td width="40">&nbsp</td>
+                            <td width="%" colspan="3" class="error-message-cell">
+
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#loginName&quot;}<br>  (Session info: chrome=110.0.5481.177)<br>For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;fv-az370-296&#39;, ip: &#39;10.1.110.0&#39;, os.name: &#39;Linux&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;5.15.0-1034-azure&#39;, java.version: &#39;1.8.0_362&#39;<br>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.jmZnjN}, goog:chromeOptions: {debuggerAddress: localhost:40273}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br>Session ID: d150a5ad23b5bb4a4b292e15f94e5b50<br>*** Element info: {Using=id, value=loginName}<br>For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;fv-az370-296&#39;, ip: &#39;10.1.110.0&#39;, os.name: &#39;Linux&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;5.15.0-1034-azure&#39;, java.version: &#39;1.8.0_362&#39;<br>Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-2""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-2">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.NoSuchElementException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)<br />org.openelisglobal.qaframework.automation.page.Page.setTextToFieldNoEnter(Page.java:240)<br />org.openelisglobal.qaframework.automation.page.LoginPage.enterUsername(LoginPage.java:48)<br />org.openelisglobal.qaframework.automation.page.LoginPage.goToHomePage(LoginPage.java:63)<br />org.openelisglobal.qaframework.automation.ReferralWorkFlowSteps.visitLoginPage(ReferralWorkFlowSteps.java:56)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:64)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:104)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:73)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                            </td>
+                        </tr>
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-1"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -347,15 +385,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">079ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-2"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -369,15 +407,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">6s 328ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-3"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -391,15 +429,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">3s 018ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-4"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -413,15 +451,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">13s 057ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-5"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -435,15 +473,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">050ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-6"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -457,15 +495,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">9s 148ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-7"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -479,15 +517,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">216ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-8"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -501,15 +539,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">029ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-9"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -523,15 +561,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">1m 1s</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-10"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -545,15 +583,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">086ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-11"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -567,15 +605,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">284ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-12"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -589,15 +627,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">130ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-13"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -611,15 +649,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">085ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-14"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -633,15 +671,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">234ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-15"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -655,15 +693,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">093ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-16"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -677,15 +715,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">1s 197ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-17"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -699,15 +737,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">147ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-18"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -721,15 +759,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">1s 236ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-19"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -743,15 +781,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">1s 198ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-20"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -765,15 +803,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">1s 388ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-21"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -787,15 +825,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">684ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-22"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -809,15 +847,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">1s 359ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-23"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -831,15 +869,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">684ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
-                    <tr class="test-SUCCESS">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-24"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -853,15 +891,15 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">3s 588ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                    <tr class="test-ERROR">
+                    <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
                             <a name="0-25"></a>
                                 <span style="margin-left: 40px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
+                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
                                 </span>
                         </td>
 
@@ -875,47 +913,9 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="nested-group-step">ERROR</span></td>
-                        <td width="100"><span class="nested-group-step">5s 582ms</span></td>
+                        <td width="130"><span class="nested-group-step">SKIPPED</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
-                        <tr class="test-ERROR">
-                            <td width="40">&nbsp</td>
-                            <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: loading (tried for 5 second(s) with 500 milliseconds interval)<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;fv-az555-983&#39;, ip: &#39;10.1.0.198&#39;, os.name: &#39;Linux&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;5.15.0-1034-azure&#39;, java.version: &#39;1.8.0_362&#39;<br>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.Y6rzJj}, goog:chromeOptions: {debuggerAddress: localhost:45269}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br>Session ID: 3de6a4582f1378518cb63f145da5fa30<br>Build info: version: &#39;3.141.59&#39;, revision: &#39;e82be7d358&#39;, time: &#39;2018-11-14T08:17:03&#39;<br>System info: host: &#39;fv-az555-983&#39;, ip: &#39;10.1.0.198&#39;, os.name: &#39;Linux&#39;, os.arch: &#39;amd64&#39;, os.version: &#39;5.15.0-1034-azure&#39;, java.version: &#39;1.8.0_362&#39;<br>Driver info: driver.version: unknown</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-27""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-27">
-            <div class="card">
-                <div class="card-header">
-                    <h4>org.openqa.selenium.TimeoutException </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)<br />org.openelisglobal.qaframework.automation.page.Page.getClass(Page.java:420)<br />org.openelisglobal.qaframework.automation.page.AddOrderPage.getLoaderGifClass(AddOrderPage.java:824)<br />org.openelisglobal.qaframework.automation.ReferralWorkFlowSteps.loaderGifShowsGreen(ReferralWorkFlowSteps.java:233)<br />✽.Patient search shows green wheel while searching internally ,OE database(file:///home/runner/work/openelis-qaframework/openelis-qaframework/src/features/openelis/referalWorkFlow.feature:32)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
                     <tr class="test-SKIPPED">
 
                         <td width="70" class="step-icon">
@@ -936,7 +936,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                        <td width="100"><span class="nested-group-step">002ms</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
                     <tr class="test-SKIPPED">
 
@@ -958,7 +958,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                        <td width="100"><span class="nested-group-step">002ms</span></td>
+                        <td width="100"><span class="nested-group-step">001ms</span></td>
                     </tr>
                     <tr class="test-SKIPPED">
 
@@ -980,7 +980,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                        <td width="100"><span class="nested-group-step">001ms</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
                     <tr class="test-SKIPPED">
 
@@ -1002,7 +1002,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                        <td width="100"><span class="nested-group-step">001ms</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
                     <tr class="test-SKIPPED">
 
@@ -1024,7 +1024,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                        <td width="100"><span class="nested-group-step">001ms</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
                     <tr class="test-SKIPPED">
 
@@ -1134,7 +1134,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                        <td width="100"><span class="nested-group-step">001ms</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
                     <tr class="test-SKIPPED">
 
@@ -1156,7 +1156,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                        <td width="100"><span class="nested-group-step">001ms</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
                     <tr class="test-SKIPPED">
 
@@ -1178,7 +1178,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                        <td width="100"><span class="nested-group-step">001ms</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
                     <tr class="test-SKIPPED">
 
@@ -1200,7 +1200,7 @@
                         </td>
 
                         <td width="130"><span class="nested-group-step">SKIPPED</span></td>
-                        <td width="100"><span class="nested-group-step">001ms</span></td>
+                        <td width="100"><span class="nested-group-step"></span></td>
                     </tr>
 
                                 </table>
@@ -1209,7 +1209,7 @@
                 <tr class="test-ERROR">
                         <td colspan="2"></td>
                     <td width="130"><span class="top-level-step"><em>ERROR</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>117.2s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>13.4s</em></span></td>
                 </tr>
 
             </table>
