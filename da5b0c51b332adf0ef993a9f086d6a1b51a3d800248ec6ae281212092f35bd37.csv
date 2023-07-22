@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Add Batch Orders Feature","Batch Order Entry Screen","FAILURE","2023-07-22T08:05:51.748Z[Etc/UTC]","0.0","13.1"
-"Referral Work Flow","Register a patient's sample for Covid testing and send the lab request and sample to the Central Health Laboratory","FAILURE","2023-07-22T08:23:54.342Z[Etc/UTC]","0.0","102.65"
+"Add Batch Orders Feature","Batch Order Entry Screen","FAILURE","2023-07-22T08:38:41.008Z[Etc/UTC]","0.0","12.5"
+"Referral Work Flow","Register a patient's sample for Covid testing and send the lab request and sample to the Central Health Laboratory","FAILURE","2023-07-22T08:56:43.881Z[Etc/UTC]","0.0","102.84"
