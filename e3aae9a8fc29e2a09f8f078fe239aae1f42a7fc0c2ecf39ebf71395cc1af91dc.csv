@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Add Batch Orders Feature","Add Batch Orders action","ERROR","2023-03-22T17:10:12.215Z[Etc/UTC]","0.0","15.28"
-"Add Batch Orders Feature","Batch Order Entry Screen","ERROR","2023-03-22T17:10:27.549Z[Etc/UTC]","0.0","13.48"
+"Add Batch Orders Feature","Batch Order Entry Screen","FAILURE","2023-07-22T08:05:51.748Z[Etc/UTC]","0.0","13.1"

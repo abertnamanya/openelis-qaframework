@@ -1,33 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="10" failures="0" name="Test Management Feature" skipped="0" tests="10" time="134.66" timestamp="2023-03-22 05:26:51"><testcase name="Validate list items in Test Management menu"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#loginName&quot;}&#10;  (Session info: chrome=110.0.5481.177)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.p9qHC9}, goog:chromeOptions: {debuggerAddress: localhost:38465}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f9f8b3ac77da5c007c6ff945bf3e78a5&#10;*** Element info: {Using=id, value=loginName}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"css selector","selector":"#loginName"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="0" name="Test Management Feature" skipped="0" tests="10" time="173.88" timestamp="2023-07-22 08:29:19"><testcase name="Validate list items in Test Management menu"/><testcase name="Open Rename Existing Test Names page"><error message="Expected condition failed: waiting for visibility of element located by By.name: nameEnglish (tried for 5 second(s) with 500 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az397-446', ip: '10.1.0.46', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1041-azure', java.version: '1.8.0_382'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.KsoMWQ}, goog:chromeOptions: {debuggerAddress: localhost:41733}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 779b0b69119ecd06badf582bf09e7243&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az397-446', ip: '10.1.0.46', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1041-azure', java.version: '1.8.0_382'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for visibility of element located by By.name: nameEnglish (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
+System info: host: 'fv-az397-446', ip: '10.1.0.46', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1041-azure', java.version: '1.8.0_382'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.p9qHC9}, goog:chromeOptions: {debuggerAddress: localhost:38465}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f9f8b3ac77da5c007c6ff945bf3e78a5
-*** Element info: {Using=id, value=loginName}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.KsoMWQ}, goog:chromeOptions: {debuggerAddress: localhost:41733}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 779b0b69119ecd06badf582bf09e7243
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: driver.version: unknown</error><system-err>no such element: Unable to locate element: {"method":"css selector","selector":"#loginName"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+System info: host: 'fv-az397-446', ip: '10.1.0.46', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1041-azure', java.version: '1.8.0_382'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for visibility of element located by By.name: nameEnglish (tried for 5 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
+System info: host: 'fv-az397-446', ip: '10.1.0.46', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1041-azure', java.version: '1.8.0_382'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.p9qHC9}, goog:chromeOptions: {debuggerAddress: localhost:38465}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: f9f8b3ac77da5c007c6ff945bf3e78a5
-*** Element info: {Using=id, value=loginName}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.KsoMWQ}, goog:chromeOptions: {debuggerAddress: localhost:41733}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 779b0b69119ecd06badf582bf09e7243
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
+System info: host: 'fv-az397-446', ip: '10.1.0.46', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1041-azure', java.version: '1.8.0_382'
 Driver info: driver.version: unknown
 org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)
-org.openelisglobal.qaframework.automation.page.Page.setTextToFieldNoEnter(Page.java:240)
-org.openelisglobal.qaframework.automation.page.LoginPage.enterUsername(LoginPage.java:48)
-org.openelisglobal.qaframework.automation.page.LoginPage.goToHomePage(LoginPage.java:63)
-org.openelisglobal.qaframework.automation.TestManagementSteps.userLoginsAndVisitsHomePage(TestManagementSteps.java:54)
+org.openelisglobal.qaframework.automation.page.Page.setText(Page.java:228)
+org.openelisglobal.qaframework.automation.page.TestManagementPage.enterTestNameInEnglish(TestManagementPage.java:181)
+org.openelisglobal.qaframework.automation.TestManagementSteps.userEntersTestNameInEnglish(TestManagementSteps.java:116)
+✽.User enters test name "GlucoseENG" in English(file:///home/runner/work/openelis-qaframework/openelis-qaframework/src/features/openelis/testManagement.feature:39)
+</system-err></testcase><testcase name="User rejects the testName updates"/><testcase name="User cancels the testName updates"/><testcase name="Add new tests"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#testNameEnglish&quot;}&#10;  (Session info: chrome=114.0.5735.133)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az397-446', ip: '10.1.0.46', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1041-azure', java.version: '1.8.0_382'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.rFboZQ}, goog:chromeOptions: {debuggerAddress: localhost:43837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5042b953ac00325185a66eb9e25de390&#10;*** Element info: {Using=id, value=testNameEnglish}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az397-446', ip: '10.1.0.46', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1041-azure', java.version: '1.8.0_382'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"css selector","selector":"#testNameEnglish"}
+  (Session info: chrome=114.0.5735.133)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az397-446', ip: '10.1.0.46', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1041-azure', java.version: '1.8.0_382'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.rFboZQ}, goog:chromeOptions: {debuggerAddress: localhost:43837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5042b953ac00325185a66eb9e25de390
+*** Element info: {Using=id, value=testNameEnglish}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az397-446', ip: '10.1.0.46', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1041-azure', java.version: '1.8.0_382'
+Driver info: driver.version: unknown</error><system-err>no such element: Unable to locate element: {"method":"css selector","selector":"#testNameEnglish"}
+  (Session info: chrome=114.0.5735.133)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az397-446', ip: '10.1.0.46', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1041-azure', java.version: '1.8.0_382'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.133, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.rFboZQ}, goog:chromeOptions: {debuggerAddress: localhost:43837}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 114.0.5735.133, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5042b953ac00325185a66eb9e25de390
+*** Element info: {Using=id, value=testNameEnglish}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'fv-az397-446', ip: '10.1.0.46', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1041-azure', java.version: '1.8.0_382'
+Driver info: driver.version: unknown
+org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)
+org.openelisglobal.qaframework.automation.page.Page.hasElement(Page.java:474)
+org.openelisglobal.qaframework.automation.page.TestManagementPage.testEnglishNameFieldExists(TestManagementPage.java:226)
+org.openelisglobal.qaframework.automation.TestManagementSteps.userClicksOnAcceptButton(TestManagementSteps.java:304)
 io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
 io.cucumber.java.Invoker.invoke(Invoker.java:24)
 io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
@@ -43,274 +64,4 @@ io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
 io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
 io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
 io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
-</system-err></testcase><testcase name="Open Rename Existing Test Names page"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#loginName&quot;}&#10;  (Session info: chrome=110.0.5481.177)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.U8Lmef}, goog:chromeOptions: {debuggerAddress: localhost:38023}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: abaca7f2105179078b6393a35d356d5d&#10;*** Element info: {Using=id, value=loginName}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"css selector","selector":"#loginName"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.U8Lmef}, goog:chromeOptions: {debuggerAddress: localhost:38023}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: abaca7f2105179078b6393a35d356d5d
-*** Element info: {Using=id, value=loginName}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: driver.version: unknown</error><system-err>no such element: Unable to locate element: {"method":"css selector","selector":"#loginName"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.U8Lmef}, goog:chromeOptions: {debuggerAddress: localhost:38023}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: abaca7f2105179078b6393a35d356d5d
-*** Element info: {Using=id, value=loginName}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: driver.version: unknown
-org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)
-org.openelisglobal.qaframework.automation.page.Page.setTextToFieldNoEnter(Page.java:240)
-org.openelisglobal.qaframework.automation.page.LoginPage.enterUsername(LoginPage.java:48)
-org.openelisglobal.qaframework.automation.page.LoginPage.goToHomePage(LoginPage.java:63)
-org.openelisglobal.qaframework.automation.TestManagementSteps.userLoginsAndVisitsHomePage(TestManagementSteps.java:54)
-io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-io.cucumber.java.Invoker.invoke(Invoker.java:24)
-io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
-io.cucumber.core.runner.TestStep.run(TestStep.java:64)
-io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-io.cucumber.core.runner.TestCase.run(TestCase.java:104)
-io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
-io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
-io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
-</system-err></testcase><testcase name="User rejects the testName updates"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#loginName&quot;}&#10;  (Session info: chrome=110.0.5481.177)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.7aOfdN}, goog:chromeOptions: {debuggerAddress: localhost:39973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 43cfa6a07d67c757f3f71245b370d261&#10;*** Element info: {Using=id, value=loginName}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"css selector","selector":"#loginName"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.7aOfdN}, goog:chromeOptions: {debuggerAddress: localhost:39973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 43cfa6a07d67c757f3f71245b370d261
-*** Element info: {Using=id, value=loginName}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: driver.version: unknown</error><system-err>no such element: Unable to locate element: {"method":"css selector","selector":"#loginName"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.7aOfdN}, goog:chromeOptions: {debuggerAddress: localhost:39973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 43cfa6a07d67c757f3f71245b370d261
-*** Element info: {Using=id, value=loginName}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: driver.version: unknown
-org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)
-org.openelisglobal.qaframework.automation.page.Page.setTextToFieldNoEnter(Page.java:240)
-org.openelisglobal.qaframework.automation.page.LoginPage.enterUsername(LoginPage.java:48)
-org.openelisglobal.qaframework.automation.page.LoginPage.goToHomePage(LoginPage.java:63)
-org.openelisglobal.qaframework.automation.TestManagementSteps.userLoginsAndVisitsHomePage(TestManagementSteps.java:54)
-io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-io.cucumber.java.Invoker.invoke(Invoker.java:24)
-io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
-io.cucumber.core.runner.TestStep.run(TestStep.java:64)
-io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-io.cucumber.core.runner.TestCase.run(TestCase.java:104)
-io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
-io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
-io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
-</system-err></testcase><testcase name="User cancels the testName updates"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#loginName&quot;}&#10;  (Session info: chrome=110.0.5481.177)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.E5NzFM}, goog:chromeOptions: {debuggerAddress: localhost:44595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: fd39296de8efdc1e0aaf20039e8b9b70&#10;*** Element info: {Using=id, value=loginName}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"css selector","selector":"#loginName"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.E5NzFM}, goog:chromeOptions: {debuggerAddress: localhost:44595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fd39296de8efdc1e0aaf20039e8b9b70
-*** Element info: {Using=id, value=loginName}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: driver.version: unknown</error><system-err>no such element: Unable to locate element: {"method":"css selector","selector":"#loginName"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.E5NzFM}, goog:chromeOptions: {debuggerAddress: localhost:44595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: fd39296de8efdc1e0aaf20039e8b9b70
-*** Element info: {Using=id, value=loginName}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: driver.version: unknown
-org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)
-org.openelisglobal.qaframework.automation.page.Page.setTextToFieldNoEnter(Page.java:240)
-org.openelisglobal.qaframework.automation.page.LoginPage.enterUsername(LoginPage.java:48)
-org.openelisglobal.qaframework.automation.page.LoginPage.goToHomePage(LoginPage.java:63)
-org.openelisglobal.qaframework.automation.TestManagementSteps.userLoginsAndVisitsHomePage(TestManagementSteps.java:54)
-io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-io.cucumber.java.Invoker.invoke(Invoker.java:24)
-io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
-io.cucumber.core.runner.TestStep.run(TestStep.java:64)
-io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-io.cucumber.core.runner.TestCase.run(TestCase.java:104)
-io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
-io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
-io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
-</system-err></testcase><testcase name="Add new tests"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#loginName&quot;}&#10;  (Session info: chrome=110.0.5481.177)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.lqYnhM}, goog:chromeOptions: {debuggerAddress: localhost:46619}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3836e1960a83505b552c981d2f52c50b&#10;*** Element info: {Using=id, value=loginName}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"css selector","selector":"#loginName"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.lqYnhM}, goog:chromeOptions: {debuggerAddress: localhost:46619}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3836e1960a83505b552c981d2f52c50b
-*** Element info: {Using=id, value=loginName}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: driver.version: unknown</error><system-err>no such element: Unable to locate element: {"method":"css selector","selector":"#loginName"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.lqYnhM}, goog:chromeOptions: {debuggerAddress: localhost:46619}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3836e1960a83505b552c981d2f52c50b
-*** Element info: {Using=id, value=loginName}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: driver.version: unknown
-org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)
-org.openelisglobal.qaframework.automation.page.Page.setTextToFieldNoEnter(Page.java:240)
-org.openelisglobal.qaframework.automation.page.LoginPage.enterUsername(LoginPage.java:48)
-org.openelisglobal.qaframework.automation.page.LoginPage.goToHomePage(LoginPage.java:63)
-org.openelisglobal.qaframework.automation.TestManagementSteps.userLoginsAndVisitsHomePage(TestManagementSteps.java:54)
-io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-io.cucumber.java.Invoker.invoke(Invoker.java:24)
-io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
-io.cucumber.core.runner.TestStep.run(TestStep.java:64)
-io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-io.cucumber.core.runner.TestCase.run(TestCase.java:104)
-io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
-io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
-io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
-</system-err></testcase><testcase name="Verify Added new testName"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#loginName&quot;}&#10;  (Session info: chrome=110.0.5481.177)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.Hq7HkN}, goog:chromeOptions: {debuggerAddress: localhost:41239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 86aede49c1577f4e6e29c56e42ff6903&#10;*** Element info: {Using=id, value=loginName}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"css selector","selector":"#loginName"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.Hq7HkN}, goog:chromeOptions: {debuggerAddress: localhost:41239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 86aede49c1577f4e6e29c56e42ff6903
-*** Element info: {Using=id, value=loginName}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: driver.version: unknown</error><system-err>no such element: Unable to locate element: {"method":"css selector","selector":"#loginName"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.Hq7HkN}, goog:chromeOptions: {debuggerAddress: localhost:41239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 86aede49c1577f4e6e29c56e42ff6903
-*** Element info: {Using=id, value=loginName}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: driver.version: unknown
-org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)
-org.openelisglobal.qaframework.automation.page.Page.setTextToFieldNoEnter(Page.java:240)
-org.openelisglobal.qaframework.automation.page.LoginPage.enterUsername(LoginPage.java:48)
-org.openelisglobal.qaframework.automation.page.LoginPage.goToHomePage(LoginPage.java:63)
-org.openelisglobal.qaframework.automation.TestManagementSteps.userLoginsAndVisitsHomePage(TestManagementSteps.java:54)
-io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-io.cucumber.java.Invoker.invoke(Invoker.java:24)
-io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
-io.cucumber.core.runner.TestStep.run(TestStep.java:64)
-io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-io.cucumber.core.runner.TestCase.run(TestCase.java:104)
-io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
-io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
-io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
-</system-err></testcase><testcase name="Modify test details"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#loginName&quot;}&#10;  (Session info: chrome=110.0.5481.177)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.bA8ieN}, goog:chromeOptions: {debuggerAddress: localhost:43615}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 77ca7d708a1553b8ec2aeca94850a2d8&#10;*** Element info: {Using=id, value=loginName}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"css selector","selector":"#loginName"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.bA8ieN}, goog:chromeOptions: {debuggerAddress: localhost:43615}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 77ca7d708a1553b8ec2aeca94850a2d8
-*** Element info: {Using=id, value=loginName}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: driver.version: unknown</error><system-err>no such element: Unable to locate element: {"method":"css selector","selector":"#loginName"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.bA8ieN}, goog:chromeOptions: {debuggerAddress: localhost:43615}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.18.0.2:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.18.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 77ca7d708a1553b8ec2aeca94850a2d8
-*** Element info: {Using=id, value=loginName}
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'fv-az370-296', ip: '10.1.110.0', os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-1034-azure', java.version: '1.8.0_362'
-Driver info: driver.version: unknown
-org.openelisglobal.qaframework.automation.page.Page.findElement(Page.java:188)
-org.openelisglobal.qaframework.automation.page.Page.setTextToFieldNoEnter(Page.java:240)
-org.openelisglobal.qaframework.automation.page.LoginPage.enterUsername(LoginPage.java:48)
-org.openelisglobal.qaframework.automation.page.LoginPage.goToHomePage(LoginPage.java:63)
-org.openelisglobal.qaframework.automation.TestManagementSteps.userLoginsAndVisitsHomePage(TestManagementSteps.java:54)
-io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
-io.cucumber.java.Invoker.invoke(Invoker.java:24)
-io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
-io.cucumber.core.runner.TestStep.run(TestStep.java:64)
-io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-io.cucumber.core.runner.TestCase.run(TestCase.java:104)
-io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
-io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
-io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
-io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)
-</system-err></testcase></testsuite>
+</system-err></testcase><testcase name="Verify Added new testName"/><testcase name="Modify test details"/></testsuite>
